@@ -1,3 +1,6 @@
+# character files
+*.phy
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
