@@ -44,11 +44,17 @@ unzip mad2-2.zip`
 
 The actual analysis is carried out by the commands
 
-`python extractGlottologTree.py
-python inferTrees.py
-python madRooting.py
-python outgroupRooting.py
-python midpointRooting.py
-python yuleRooting.py
-python getTripletDistances.py`
+`python extractGlottologTree.py`
+
+`python inferTrees.py`
+
+`python madRooting.py`
+
+`python outgroupRooting.py`
+
+`python midpointRooting.py`
+
+`python yuleRooting.py`
+
+`python getTripletDistances.py`
 
