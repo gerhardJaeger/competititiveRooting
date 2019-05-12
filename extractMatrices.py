@@ -33,11 +33,11 @@ for c in concepts:
 
 writePhy(ccMtx, 'asjp/world_cc.phy')
 
-sounds = np.unique(np.concatenate(map(list, data.simplified.values)))
+sounds = np.unique(np.concatenate(list(map(list, data.simplified.values))))
 
 scMtx = pd.DataFrame(index=taxa)
 for c in concepts:
-    print c
+    print(c)
     cData = data[data.concept == c]
     cTaxa = cData.longname.unique()
     cWords = pd.Series([''.join(cData[cData.longname == l].simplified.values)
