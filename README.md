@@ -29,11 +29,11 @@ To obtain the ASJP data:
 
 You need to install the program tqDist:
 
-`wget http://users-cs.au.dk/cstorm/software/tqdist/files/tqDist-1.0.1.zip
+`wget http://users-cs.au.dk/cstorm/software/tqdist/files/tqDist-1.0.1.zip`
 
-unzip tqDist-1.0.1.zip
+`unzip tqDist-1.0.1.zip`
 
-cd tqDist-1.0.1`
+`cd tqDist-1.0.1`
 
 Follow the "Build procedure" described in `README`. I got error messages when I ran "make", but adding the lines
 
