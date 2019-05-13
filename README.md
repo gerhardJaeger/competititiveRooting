@@ -38,6 +38,7 @@ You need to install the program tqDist:
 Follow the "Build procedure" described in `README`. I got error messages when I ran "make", but adding the lines
 
   `#include <string.h>`
+  
   `#include <stdio.h>`
 
 to the headers of the files `all_pairs_quartet_distance.cpp, pairs_triplet_distance.cpp, test_triplet.cpp, pairs_quartet_distance.cpp, quartet_dist.cpp, triplet_dist.cpp` in the directory `tqDist` solved the problem.
