@@ -16,16 +16,23 @@ To obtain the constraint tree from Glottolog:
 To obtain the ASJP data:
 
 `cd asjp
+
 wget https://cdstar.shh.mpg.de/bitstreams/EAEA0-E32A-2C2D-B777-0/asjp_dataset.cldf.zip
+
 unzip asjp_dataset.cldf.zip
+
 wget https://cdstar.shh.mpg.de/bitstreams/EAEA0-E32A-2C2D-B777-0/asjp_dataset.tab.zip
+
 unzip unzip asjp_dataset.tab.zip
+
 cd ..`
 
 You need to install the program tqDist:
 
 `wget http://users-cs.au.dk/cstorm/software/tqdist/files/tqDist-1.0.1.zip
+
 unzip tqDist-1.0.1.zip
+
 cd tqDist-1.0.1`
 
 Follow the "Build procedure" described in `README`. I got error messages when I ran "make", but adding the lines
