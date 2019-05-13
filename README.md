@@ -15,17 +15,17 @@ To obtain the constraint tree from Glottolog:
 
 To obtain the ASJP data:
 
-`cd asjp
+`cd asjp`
 
-wget https://cdstar.shh.mpg.de/bitstreams/EAEA0-E32A-2C2D-B777-0/asjp_dataset.cldf.zip
+`wget https://cdstar.shh.mpg.de/bitstreams/EAEA0-E32A-2C2D-B777-0/asjp_dataset.cldf.zip`
 
-unzip asjp_dataset.cldf.zip
+`unzip asjp_dataset.cldf.zip`
 
-wget https://cdstar.shh.mpg.de/bitstreams/EAEA0-E32A-2C2D-B777-0/asjp_dataset.tab.zip
+`wget https://cdstar.shh.mpg.de/bitstreams/EAEA0-E32A-2C2D-B777-0/asjp_dataset.tab.zip`
 
-unzip unzip asjp_dataset.tab.zip
+`unzip unzip asjp_dataset.tab.zip`
 
-cd ..`
+`cd ..`
 
 You need to install the program tqDist:
 
